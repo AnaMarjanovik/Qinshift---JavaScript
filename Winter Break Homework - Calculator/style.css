@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+}
+
+#header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#mainCalculator {
+    background-color: lightslategray;
+    width: 270px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 0px auto;
+}
+
+#display {
+    background-color: lightgray;
+    width: 260px;
+    height: 70px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#firstLine, #secondLine, #thirdLine, #fourthLine {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 60px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #dot {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid darkblue;
+}
+
+#slash, #multiplication, #minus, #plus {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+#equal {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;  
+    margin-top: 10px;
+}
+
+#clearLine {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%; 
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+#clear:hover {
+    background-color: darkred; 
+}

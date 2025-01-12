@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book</title>
+</head>
+<body>
+    <h1>My phone book !</h1>
+    <br>
+
+    <input id="firstName" type="text" placeholder="First Name">
+    <input id="lastName" type="text" placeholder="Last Name">
+    <input id="phoneNumber" type="text" placeholder="Phone Number">
+
+    <button id="saveButton">Save</button>
+    <br>
+    <br>
+
+    <table border="1px">
+        <thead> 
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone number</th>
+        </thead>
+        <tbody id="newContacts"></tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
